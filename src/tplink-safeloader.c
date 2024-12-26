@@ -2011,7 +2011,6 @@ static struct device_info boards[] = {
 	 *   - EAP225 v4
 	 *   - EAP225-Outdoor v1
 	 *   - EAP225-Outdoor v3
-	 *   - EAP223 v2
 	 *   */
 	{
 		.id     = "EAP225-V3",
@@ -2021,9 +2020,7 @@ static struct device_info boards[] = {
 			"EAP225(TP-Link|UN|AC1350-D):3.20\r\n"
 			"EAP225(TP-Link|UN|AC1350-D):4.0 CA\r\n"
 			"EAP225-Outdoor(TP-Link|UN|AC1200-D):1.0\r\n"
-			"EAP225-Outdoor(TP-Link|UN|AC1200-D):3.0 CA,JP\r\n"
-			"EAP223(TP-Link|UN|AC1350-D):2.0 CA\r\n"
-			"EAP223(TP-Link|UN|AC1350-D):2.0\r\n",
+			"EAP225-Outdoor(TP-Link|UN|AC1200-D):3.0 CA,JP\r\n",
 		.part_trail = PART_TRAIL_NONE,
 		.soft_ver = SOFT_VER_DEFAULT,
 		.soft_ver_compat_level = 2,
